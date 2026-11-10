@@ -1,0 +1,14 @@
+# --- Project additions ---
+# Data and model files: never commit; link to the source instead
+data/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Experiment tracking
+wandb/
+
+# OS clutter
+Thumbs.db
+desktop.ini
